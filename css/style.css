@@ -1,0 +1,290 @@
+@import url(./fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background:#151515
+}
+
+.container {
+    max-width: 1110px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.head {
+    background: #282828;
+}
+
+.head__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head__logo {
+    padding: 6px 0;
+}
+
+.head__left {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.head__menu {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.head__link {
+    font-family: 'Montserrat-b';
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.head__link:hover {
+    color: rgb(207, 205, 205)
+}
+
+.head__right {
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+
+
+
+
+.mainbanner {
+    background: url(../img/mbannerback.png) no-repeat center/cover;
+    max-height: 700px;
+    height: 100vh;
+}
+
+.mbanner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 38px;
+}
+
+.mbanner__h1 {
+    font-family: 'ProstoOne-r';
+    font-size: 100px;
+    line-height: 75px;
+    color: white
+}
+
+.mbanner__btn {
+    font-family: 'Montserrat-m';
+    font-size: 20px;
+    line-height: 24px;
+    padding: 9px 41px 9px 14px;
+    color: black;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.mbanner__btn::after {
+    content: "";
+    position: absolute;
+    background: url(../img/officialsite.svg) no-repeat;
+    width: 16px;
+    height: 15px;
+    right: 13px;
+    top: 12.5px;
+
+}
+
+.mbanner__btn:hover {
+    background: #282828;
+    color: #fff;
+}
+
+.mbanner__btn:hover::after {
+    background: url(../img/officialsitewhite.svg) no-repeat;
+    transition: 0.25s
+}
+
+
+
+
+
+
+
+.headphones__wrap {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 79px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    align-items: flex-start;
+}
+
+.headphones__txt {
+    font-family: 'Montserrat-m';
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 33px;
+    color:white;
+}
+
+.first__img {
+    margin-left: 30px;
+}
+
+.second__img {
+    margin-right: 87px;
+}
+
+.third__txt {
+    font-family: 'Montserrat-b';
+    font-size: 20px;
+    line-height: 24px;
+    color:white;
+}
+
+.third__txtl {
+    text-align: right;
+    margin-right: 87px;
+    position: relative;
+}
+
+.third__txtl::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 61px;
+    height: 1px;
+    right: -74px;
+    top: 60px;
+}
+
+.third__txtr {
+    text-align: left;
+    margin-left: 87px;
+    position: relative;
+}
+
+.third__txtr::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 61px;
+    height: 1px;
+    left: -74px;
+    top: 70px;
+}
+
+
+
+
+
+
+
+.products__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 55px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 60px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.card__h3 {
+    font-family: 'Montserrat-b';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000
+}
+
+.card__txt {
+    font-family: 'Montserrat-r';
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.card__img {
+    margin: 10px 0;
+}
+
+.card__btn {
+    font-family: 'Montserrat-b';
+    font-size: 16px;
+    line-height: 20px;
+    background: #151515;
+    padding: 7px 57px;
+    margin-bottom: 22px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    color:white;
+}
+
+.card__btn:hover{
+    background: white;
+    border: 2px solid #151515;
+    padding: 5px 55px;
+    color: #151515;
+}
+
+
+
+
+
+.foot{
+    background: #282828;
+}
+.foot__wrap{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
