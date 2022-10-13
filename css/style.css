@@ -8,12 +8,13 @@
     list-style: none;
 }
 
-body{
-    background:#151515
+body {
+    background: #151515
 }
 
 .container {
-    max-width: 1110px;
+    max-width: 1140px;
+    padding: 0 15px;
     height: 100%;
     width: 100%;
     margin: 0 auto;
@@ -59,7 +60,7 @@ body{
 .head__right {
     display: flex;
     align-items: center;
-    gap: 25px
+    gap: 25px;
 }
 
 
@@ -155,7 +156,7 @@ body{
     font-size: 22px;
     line-height: 27px;
     margin-top: 33px;
-    color:white;
+    color: white;
 }
 
 .first__img {
@@ -170,7 +171,7 @@ body{
     font-family: 'Montserrat-b';
     font-size: 20px;
     line-height: 24px;
-    color:white;
+    color: white;
 }
 
 .third__txtl {
@@ -258,10 +259,10 @@ body{
     border: none;
     cursor: pointer;
     position: relative;
-    color:white;
+    color: white;
 }
 
-.card__btn:hover{
+.card__btn:hover {
     background: white;
     border: 2px solid #151515;
     padding: 5px 55px;
@@ -272,19 +273,368 @@ body{
 
 
 
-.foot{
+.foot {
     background: #282828;
 }
-.foot__wrap{
+
+.foot__wrap {
     padding: 80px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banks{
+.banks {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+
+@media screen and (max-width:1215px) {
+    .products__wrap {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-basis: 34%;
+    }
+}
+
+
+@media screen and (max-width:1137px) {
+    .headphones__txt {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .third__txt {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .first__img {
+        width: 400px;
+        height: auto;
+    }
+
+    .second__img {
+        width: 331px;
+        height: auto;
+    }
+
+    .third__img {
+        width: 194px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:916px) {
+    .headphones__txt {
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    .second__img {
+        margin-right: 30px;
+    }
+
+    .third__txt {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .first__img {
+        width: 290px;
+        height: auto;
+    }
+
+    .second__img {
+        width: 240px;
+        height: auto;
+    }
+
+    .third__img {
+        width: 140px;
+        height: auto;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:732px) {
+    .headphones__txt {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .third__txt {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .first__img {
+        width: 220px;
+        height: auto;
+    }
+
+    .second__img {
+        width: 200px;
+        height: auto;
+    }
+
+    .third__img {
+        width: 80px;
+        height: auto;
+    }
+
+    .head__link {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .mbanner__h1 {
+        font-size: 72px;
+        line-height: 75px;
+    }
+
+    .mbanner__btn {
+        font-size: 17px;
+        line-height: 24px;
+        padding: 7px 39px 7px 12px;
+    }
+
+    .mbanner__btn::after {
+        width: 16px;
+        height: 15px;
+        top: 11px;
+    }
+
+    .bank {
+        width: 90%;
+        height: auto;
+    }
+
+    .logo {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .headphones__txt {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .card__img{
+        width: 50%;
+        height: auto;
+    }
+    
+    .card__btn {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 5px 45px;
+        margin-bottom: 0px;
+    }
+    
+
+    .third__txt {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .first__img {
+        width: 200px;
+        height: auto;
+    }
+
+    .second__img {
+        width: 170px;
+        height: auto;
+    }
+
+    .third__img {
+        width: 60px;
+        height: auto;
+    }
+
+    .head__link {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .mbanner__h1 {
+        font-size: 72px;
+        line-height: 75px;
+    }
+
+    .mbanner__btn {
+        font-size: 17px;
+        line-height: 24px;
+        padding: 7px 39px 7px 12px;
+    }
+
+    .mbanner__btn::after {
+        width: 16px;
+        height: 15px;
+        top: 11px;
+    }
+
+    .bank {
+        width: 90%;
+        height: auto;
+    }
+
+    .logo {
+        width: 90%;
+        height: auto;
+    }
+    
+    .products__wrap{
+        flex-direction: column
+    }
+
+    .card {
+        flex-basis: 20%;
+    }
+    
+    .banks{
+        gap: 10px
+    }
+
+    .third__txtl::after {
+        width: 40px;
+        height: 1px;
+        right: -54px;
+        top: 40px;
+    }
+
+    .third__txtr::after {
+        width: 40px;
+        height: 1px;
+        left: -54px;
+        top: 50px;
+    }
+
+    .third__txtl {
+        margin-right: 60px;
+    }
+    .third__txtr {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:546px) {
+    .headphones__txt {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .third__txt {
+        font-size: 10px;
+        line-height: 11px;
+        text-align: center
+    }
+    
+    .third__txtl::after {
+        width: 30px;
+        height: 1px;
+        right: 65px;
+        top: 75px;
+        transform: rotate(90deg)
+    }
+
+    .third__txtr::after {
+        width: 30px;
+        height: 1px;
+        left: 70px;
+        top: -20px;
+        transform: rotate(90deg)
+    }
+
+    .third__txtl {
+        margin-right: 0px;
+    }
+    .third__txtr {
+        margin-left: 0px;
+    }
+    
+    .first{
+        flex-direction: column-reverse
+    }
+    
+    .first__img {
+        margin-left: 30px;
+    }
+    
+    .second__img {
+        margin-right: 0px;
+    }
+    
+    .second{
+        flex-direction: column
+    }
+
+    .third__txt {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    
+    .third{
+        gap: 50px;
+        flex-direction: column
+    }
+    
+    .head__wrap{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+    .head__left{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center
+    }
+    .head__right{
+        align-items: center;
+        justify-content: center;
+        margin-left: -10px;
+    }
+    
+    .foot__wrap{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+    
+    .foot__menu{
+        margin-right: 22px;
+    }
+    
+    .mbanner__h1 {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .mbanner__btn {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 4px 34px 4px 7px;
+    }
+
+    .mbanner__btn::after {
+        width: 16px;
+        height: 15px;
+        top: 7px;
+    }
 }
